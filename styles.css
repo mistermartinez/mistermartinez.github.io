@@ -4,7 +4,7 @@ p {
 div {
     height:50px;
     width:120px;
-    border-color:#6495ED;
+    border-color:green;
     background-color:#BCD2EE;
     border-radius:5px;
 }
