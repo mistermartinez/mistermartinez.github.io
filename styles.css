@@ -4,6 +4,8 @@ p {
 div {
     height:50px;
     width:120px;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
     border-color:#006400;
     background-color:#006400;
     border-radius:5px;
