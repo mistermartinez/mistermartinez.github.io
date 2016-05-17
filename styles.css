@@ -11,6 +11,16 @@ p {
 p:hover {
   color:blue;
 }
+div {
+  height:50px;
+    width:120px;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    border-color:#006400;
+    background-color:gray;
+    border-radius:5px;
+  
+}
 }
 a div {
     height:50px;
