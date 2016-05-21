@@ -2,47 +2,52 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<link rel=”stylesheet” id=”font-awesome-css” href=”//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css” type=”text/css” media=”screen”>
+
 
 <title>Mr. Martinez</title>
 <style>
-.back-to-top {
- 
-background: none;
- 
-margin: 0;
- 
-position: fixed;
- 
-bottom: 0;
- 
-right: 0;
- 
-width: 70px;
- 
-height: 70px;
- 
-z-index: 100;
- 
-display: none;
- 
-text-decoration: none;
- 
-color: #ffffff;
- 
-background-color: #ff9000;
- 
+.scroll-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #777777;
+	color: #eeeeee;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+	background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
 }
  
-  
- 
-.back-to-top i {
- 
-  font-size: 60px;
- 
-}
+
 html {
     overflow: scroll;
     overflow-x: hidden;
@@ -254,9 +259,36 @@ li a:hover {
 </head>
 
 <body>
-  <a href=”#” class=”back-to-top” style=”display: inline;”>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<div class="scroll-top-wrapper ">
+	<span class="scroll-top-inner">
+		<i class="fa fa-2x fa-arrow-circle-up"></i>
+	</span>
+</div>
+<script>
  
-<i class=”fa fa-arrow-circle-up”></i>
+$(function(){
+ 
+	$(document).on( 'scroll', function(){
+ 
+		if ($(window).scrollTop() > 100) {
+			$('.scroll-top-wrapper').addClass('show');
+		} else {
+			$('.scroll-top-wrapper').removeClass('show');
+		}
+	});
+ 
+	$('.scroll-top-wrapper').on('click', scrollToTop);
+});
+ 
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+</script>
  
 </a>
 <ul>
@@ -313,44 +345,7 @@ li a:hover {
     });
   }());
   </script>
-  <script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
-  <script>
- 
-jQuery(document).ready(function() {
- 
-var offset = 250;
- 
-var duration = 300;
- 
-jQuery(window).scroll(function() {
- 
-if (jQuery(this).scrollTop() > offset) {
- 
-jQuery(‘.back-to-top’).fadeIn(duration);
- 
-} else {
- 
-jQuery(‘.back-to-top’).fadeOut(duration);
- 
-}
- 
-});
- 
-&nbsp;
- 
-jQuery(‘.back-to-top’).click(function(event) {
- 
-event.preventDefault();
- 
-jQuery(‘html, body’).animate({scrollTop: 0}, duration);
- 
-return false;
- 
-})
- 
-});
- 
-</script>
+
 
 </body>
 </html>
