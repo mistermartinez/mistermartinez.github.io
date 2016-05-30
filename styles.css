@@ -1,44 +1,7 @@
-html { 
-  background: url(http://i22.photobucket.com/albums/b318/thecudjoe/WP.jpg) no-repeat center center fixed; 
+  html { 
+  background: url(mistermartinez.github.io/pencils.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-p {
-  color:red;
-}
-p:hover {
-  color:blue;
-}
-div {
-  height:50px;
-    width:120px;
-    opacity: 0.4;
-    filter: alpha(opacity=40);
-    border-color:#006400;
-    background-color:gray;
-    border-radius:5px;
-  
-}
-}
-a div {
-    height:50px;
-    width:120px;
-    opacity: 0.4;
-    filter: alpha(opacity=40);
-    border-color:#006400;
-    background-color:#006400;
-    border-radius:5px;
-}
-a div:hover {
-  
-      height:50px;
-    width:120px;
-    opacity: 0.4;
-    filter: alpha(opacity=40);
-    border-color:#006400;
-    background-color:red;
-    border-radius:5px
-}
-
