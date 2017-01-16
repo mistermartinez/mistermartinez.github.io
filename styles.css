@@ -2,9 +2,16 @@
   margin: 0;
 }
 
-body {
-    background:url("mistermartinez.github.io/Image.svg") no-repeat 50% 0 fixed;
-    margin: 100%;
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom- 20px;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 20px;
 }
 
 nav {
@@ -24,6 +31,17 @@ nav a {
       line-height: 50px;
 }
 
+.sect {
+  height:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
+
+
+.sectOne {
+  background-image: url("mistermartinez.github.io/Image.png");
+}
 
  
