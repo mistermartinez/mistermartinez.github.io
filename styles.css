@@ -7,7 +7,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 html, body {
-  height: 100%;
+ 
+    background-image:    url("mistermartinez.github.io/Image.svg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
 }
 
 h1, h2, h3, h4, h5, h6, p {
