@@ -12,7 +12,7 @@ html, body {
 
 nav {
   position: fixed;
-  width: 100%;
+  width: 80%;
   height: 50px;
   background-color: black;
   z-index: 99;
@@ -23,7 +23,7 @@ nav {
 nav a {
       text-decoration: none;
       color: #fff;
-      margin-left: 38px;
+      margin-left: 40px;
       line-height: 50px;
 }
 
