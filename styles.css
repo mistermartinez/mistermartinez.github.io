@@ -1,13 +1,4 @@
-* {
-  margin: 10;
-}
 
-
-
-
-html, body {
-  height: 90%;
-}
  
 html { 
   background: url("mistermartinez.github.io/Image.svg") no-repeat center center fixed; 
@@ -18,9 +9,7 @@ html {
 }
 
 
-h1, h2, h3, h4, h5, h6, p {
-  margin-bottom: 20px;
-}
+
 
 nav {
   position: fixed;
