@@ -1,15 +1,18 @@
-
- 
-html { 
-  background: url("mistermartinez.github.io/Image.svg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+* {
+  margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom- 20px;
+}
 
+html, body {
+  height: 100%;
+}
 
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 20px;
+}
 
 nav {
   position: fixed;
@@ -28,3 +31,17 @@ nav a {
       line-height: 50px;
 }
 
+.sect {
+  height:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.sectOne {
+  background-image: url("mistermartinez.github.io/Image.svg");
+}
+
+ 
