@@ -16,7 +16,7 @@ nav {
   height: 50px;
   background-color: black;
   z-index: 99;
-  text-align: inherit;
+  text-align: center;
   font-family: garamond;
 }
 
