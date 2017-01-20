@@ -24,6 +24,7 @@ ul {
 }
 li {
     float: left;
+  margin: 70;
 }
 
 li a {
@@ -32,6 +33,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
   text-decoration: none;
+  margin: 70;
   
     
 }
@@ -43,13 +45,6 @@ li a:hover {
 }
 
 
-nav a {
-  text-align:center;
-      text-decoration: none;
-      color: #fff;
-      margin-left: 60px;
-      line-height: 50px;
-       text-decoration:none;
 }
 
 .sect {
