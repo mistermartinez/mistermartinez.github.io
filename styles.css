@@ -17,7 +17,8 @@ ul {
     background-color: black;
 }
 .active {
-    background-color: green;
+         text-decoration:underline;
+     color:white;
 }
 li {
     float: left;
