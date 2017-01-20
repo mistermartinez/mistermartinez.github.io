@@ -12,6 +12,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: black;
+    position:fixed;
 }
 
 li {
@@ -40,4 +41,22 @@ li a {
 
 .sectOne {
   background-image: url("http://mistermartinez.github.io/image.jpg");
+}
+
+.sectTwo {
+    background-image: url("http://mistermartinez.github.io/image1.jpg");
+}
+
+.center-div
+{
+  position: absolute;
+  margin: absolute;
+  top: 306px;
+  right: 0px;
+  bottom: 0;
+  left: 311px;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 3px;
 }
