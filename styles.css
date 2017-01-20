@@ -11,11 +11,11 @@ html, body {
 }
 ul {
     list-style-type: none;
-    margin: 70;
+    margin: 30;
     padding: 0;
     overflow: hidden;
     background-color: black;
-  text-align:center;
+  
 }
 .active {
 
@@ -24,7 +24,6 @@ ul {
 }
 li {
     float: left;
-  margin: 70;
 }
 
 li a {
@@ -33,7 +32,6 @@ li a {
     text-align: center;
     padding: 14px 16px;
   text-decoration: none;
-  margin: 70;
   
     
 }
@@ -45,6 +43,12 @@ li a:hover {
 }
 
 
+nav a {
+      text-decoration: none;
+      color: #fff;
+      margin-left: 60px;
+      line-height: 50px;
+       text-decoration:none;
 }
 
 .sect {
@@ -61,4 +65,3 @@ li a:hover {
   background-image: url("mistermartinez.github.io/image.jpg");
 }
 
- 
