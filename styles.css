@@ -15,22 +15,22 @@ ul {
     background-color: black;
     position:fixed;
         display:inline-block;
-        text-align:center;
+        
 }
 
 li {
     list-style-type: none;
     display:inline-block;
-    text-align:center;
+    
     
 }
 
 li a {
     display: block;
     color: white;
-    padding: 14px 16px;
+    
     text-decoration:none;
-    text-align:center;
+    
 }
 
 
