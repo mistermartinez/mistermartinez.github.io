@@ -1,28 +1,21 @@
-* {
+            * {
   margin: 0;
 }
-
 
 html, body {
   height: 100%;
   background-color: black;
 }
 
-}
 ul {
-    list-style-type: none;
     margin: 30;
     padding: 0;
     overflow: hidden;
     background-color: black;
-  
 }
-.active {
 
-         text-decoration:underline;
-     color:white;
-}
 li {
+    list-style-type: none;
     float: left;
 }
 
@@ -30,25 +23,13 @@ li a {
     display: block;
     color: white;
     padding: 14px 16px;
-  text-decoration: none;
-  
-    
+    text-decoration:none;  
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-         text-decoration:underline;
-     color:white;
-}
-
-
-nav a {
-      text-decoration: none;
-      color: #fff;
-      margin-left: 60px;
-      line-height: 50px;
-       text-decoration:none;
-}
+.active{
+  text-decoration:underline;
+  color:white;
+   }
 
 .sect {
   height:100%;
@@ -57,10 +38,6 @@ nav a {
   background-attachment: fixed;
 }
 
-
-
-
 .sectOne {
-  background-image: url("mistermartinez.github.io/image.jpg");
+  background-image: url("http://mistermartinez.github.io/image.jpg");
 }
-
