@@ -1,64 +1,44 @@
-            * {
-  margin: 0;
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Mr. Martinez</title>
+        <style>
+   
+
+#nav{ background-color: #222; position: fixed; width: 100%; top: 0; }
+#nav-wrapper{ width: 960px; margin: 0 auto; text-align: left; }
+#nav ul{ list-style-type: none; padding: 0; margin: 0; }
+#nav ul li{ display: inline-block; }
+#nav ul li:hover{ background-color: #333; }
+#nav ul li a,visited{ color: #CCC; display: block; padding: 15px; text-decoration: none; }
+
+html { 
+    background: url(http://mistermartinez.github.io/image.jpg) no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 900px 511px;
 }
 
-html, body {
-  height: 100%;
-  width:100%;
-  background-color: black;
-}
+</style>
+      </head>
 
-ul {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    position:fixed;
-        display:inline-block;
-        
-}
-
-li {
-    list-style-type: none;
-    display:inline-block;
+<body>
     
+    <div id="nav">
+    <div id="nav-wrapper">
+        <ul>
+            <li><a href="#">item #1</a></li>
+            <li><a href="#">item #2</a></li>
+            <li><a href="#">item #3</a></li>
+            <li><a href="#">item #4</a></li>
+            <li><a href="#">item #5</a></li>
+        </ul>
+    </div>
+</div>
+
+
+  
     
-}
-
-li a {
-    display: block;
-    color: white;
-    
-    text-decoration:none;
-    
-}
-
-
-.sect {
-  height:100%;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.sectOne {
-  background-image: url("http://mistermartinez.github.io/image.jpg");
-}
-
-.sectTwo {
-    background-image: url("http://mistermartinez.github.io/image1.jpg");
-}
-
-.center-div
-{
-  position: fixed;
-  margin: 0;
-  top: 306px;
-  right: 0px;
-  bottom: 0;
-  left: 320px;
-  width: 100px;
-  height: 100px;
-  background-color: transparent;
-  border-radius: 0px;
-}
+</body>
+</html>      
