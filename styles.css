@@ -4,33 +4,35 @@
 
 html, body {
   height: 100%;
+  width:100%;
   background-color: black;
 }
 
 ul {
-    margin: 30;
+    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
     position:fixed;
+        display:inline-block;
+        text-align:center;
 }
 
 li {
     list-style-type: none;
-    float: left;
+    display:inline-block;
+    text-align:center;
+    
 }
 
 li a {
     display: block;
     color: white;
     padding: 14px 16px;
-    text-decoration:none;  
+    text-decoration:none;
+    text-align:center;
 }
 
-.active{
-  text-decoration:underline;
-  color:white;
-   }
 
 .sect {
   height:100%;
@@ -49,8 +51,8 @@ li a {
 
 .center-div
 {
-  position: absolute;
-  margin: absolute;
+  position: fixed;
+  margin: 0;
   top: 306px;
   right: 0px;
   bottom: 0;
