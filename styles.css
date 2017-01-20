@@ -20,7 +20,7 @@ ul {
     background-color: green;
 }
 li {
-    float: center;
+    float: left;
 }
 
 li a {
@@ -33,7 +33,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: green;
 }
 
 nav {
@@ -50,7 +50,7 @@ nav {
 nav a {
       text-decoration: none;
       color: #fff;
-      margin-left: 29px;
+      margin-left: 60px;
       line-height: 50px;
 }
 
