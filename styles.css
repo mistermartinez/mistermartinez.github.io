@@ -20,7 +20,7 @@ ul {
     background-color: green;
 }
 li {
-    float: left;
+    float: center;
 }
 
 li a {
