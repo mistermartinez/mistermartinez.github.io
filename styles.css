@@ -18,6 +18,9 @@ ul {
   
 }
 .active {
+
+         text-decoration:underline;
+     color:white;
 }
 li {
     float: left;
