@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-     <head>
-          <title>Mr. Martinez</title>
-        <style>
+
    
 
 #nav{ background-color: #222; position: fixed; width: 100%; top: 0; }
@@ -20,25 +16,3 @@ html {
     background-size: 900px 511px;
 }
 
-</style>
-      </head>
-
-<body>
-    
-    <div id="nav">
-    <div id="nav-wrapper">
-        <ul>
-            <li><a href="#">item #1</a></li>
-            <li><a href="#">item #2</a></li>
-            <li><a href="#">item #3</a></li>
-            <li><a href="#">item #4</a></li>
-            <li><a href="#">item #5</a></li>
-        </ul>
-    </div>
-</div>
-
-
-  
-    
-</body>
-</html>      
