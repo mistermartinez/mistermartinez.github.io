@@ -1,4 +1,5 @@
-
+              
+              
               #nav{ background-color: black; position: fixed; width: 100%; top: 0; left: 0; }
 #nav-wrapper{ width: 1500px; margin: 0 auto; text-align: left: relative;font-size:100%; }
 #nav ul{ list-style-type: none; padding: 0; margin: 0; }
@@ -13,3 +14,16 @@ html {
     -o-background-size: auto;
     background-size: auto;
      background-color:cadetblue;
+}
+#info { 
+    height: 41px; 
+    position: fixed; 
+    bottom:0%;
+    position: ;
+    width:100%; 
+    background-color: black; 
+    opacity: 1;
+    left: 0%;
+}
+
+
