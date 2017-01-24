@@ -1,7 +1,12 @@
-#wrapper {
+  
+          <style>
+          #wrapper {
               height:88vh;
               width:186vh;
               background-color:black;
+              margin-top:6vh;
+              margin-left:auto;
+              margin-right:auto;
               
           }
           #img {
@@ -12,7 +17,7 @@
           
 body {
     margin:0;
-    background-color:grey;
+    background-color:black;
 }
 
   #one {
