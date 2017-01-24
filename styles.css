@@ -1,10 +1,10 @@
   
           
           #wrapper {
-              height:auto;
-              width:auto;
+              height:100%;
+              width:100%;
               background-color:black;
-              margin-top:6vh;
+              /*margin-top:6vh;*/
               margin-left:auto;
               
               
