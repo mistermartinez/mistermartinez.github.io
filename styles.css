@@ -1,23 +1,42 @@
-
-              #nav{ background-color: black; position: fixed; width: 14%; top: 0; left: 0; }
-#nav-wrapper{ width:100%; margin: 0 auto; text-align: left: relative;font-size:100%; }
-#nav ul{ list-style-type: none; padding: 0; margin: 0; }
-#nav ul li{ height: }
-#nav ul li:hover{ background-color: #333; width: 105%; }
-#nav ul li a,visited{ color: #CCC; padding: 7px; text-decoration: none; }
-
-
-#info { 
-    height: 41px; 
-    position: fixed; 
-    bottom:0%;
-    position: ;
-    width:100%; 
-    background-color: black; 
-    opacity: 1;
-    left: 0%;
-    color:white;
+#wrapper {
+              height:88vh;
+              width:186vh;
+              background-color:black;
+              
+          }
+          #img {
+   
+   width: 100%;
+   height: 100%;
+}
+          
+body {
+    margin:0;
+    background-color:grey;
 }
 
-
-
+  #one {
+      
+      height:87vh;
+      width:33vh;
+      background-color:black;
+      margin:20;
+      float:left;
+      display:inline-block;
+  }
+  
+  #two {
+      height:87vh;
+      width:153vh;
+      background-color:red;
+      display:inline-block;
+  }
+  
+  a {
+      font-size:auto;
+      font-family:garamond;
+      color:white;
+      text-decoration:none;
+  }
+  
+  
