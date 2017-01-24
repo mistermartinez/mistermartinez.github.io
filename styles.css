@@ -1,13 +1,11 @@
   #wrapper {
-              /*height:88vh;
+              height:88vh;
               width:189vh;
               background-color:black;
               margin-top:6vh;
               margin-left:auto;
-              margin-right:auto;*/
-              height: auto; /*if more info comes on the page, it will stretch down*/
-width: auto;
-margin: 0 auto;
+              margin-right:auto;
+             
 
               
               
